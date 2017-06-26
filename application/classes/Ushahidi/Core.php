@@ -22,7 +22,7 @@ abstract class Ushahidi_Core {
 		 * 0. Register depenendencies for injection.
 		 */
 		$di = service();
-
+/*
 		// Kohana injection
 		// DB config
 		$di->set('db.config', function() use ($di) {
@@ -51,12 +51,7 @@ abstract class Ushahidi_Core {
 		});
 
 		$di->set('tool.validation', $di->lazyNew('Ushahidi_ValidationEngine'));
-
-		$di->set('tool.mailer', $di->lazyNew('Ushahidi_Mailer', [
-			'siteConfig' => $di->lazyGet('site.config'),
-			'clientUrl' => $di->lazyGet('clienturl')
-		]));
-
+*/
 		/**
 		 * 1. Load the plugins
 		 */
