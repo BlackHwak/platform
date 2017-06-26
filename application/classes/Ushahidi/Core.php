@@ -60,7 +60,7 @@ abstract class Ushahidi_Core {
 		/**
 		 * 1. Load the plugins
 		 */
-		self::load();
+		//self::load();
 
 		/**
 		 * Attach database config

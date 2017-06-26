@@ -9,7 +9,10 @@ try {
 }
 
 // Initialize the Kohana application
-require __DIR__ . '/../application/kohana.php';
+// require __DIR__ . '/../application/kohana.php';
+
+// Ushahidi: load transitional code
+require_once __DIR__.'/../src/Init.php';
 
 $app = require __DIR__.'/lumen.php';
 
